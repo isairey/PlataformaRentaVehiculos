@@ -275,28 +275,7 @@ Compilar y ejecutar el proyecto desde Visual Studio.
 
 ---
 
-# 📸 Vista previa
 
-## 🖥️ Interfaces del sistema
-
-<div align="center">
-
-### 🚗 Dashboard principal
-![Dashboard](https://dummyimage.com/1200x700/e5e5e5/000000&text=Car+Rental+Dashboard)
-
-### 🚘 Catálogo de vehículos
-![Cars](https://dummyimage.com/1200x700/d9d9d9/000000&text=Vehicle+Catalog)
-
-### 📅 Sistema de reservas
-![Booking](https://dummyimage.com/1200x700/cfcfcf/000000&text=Reservation+System)
-
-### 📊 Administración del sistema
-![Admin](https://dummyimage.com/1200x700/bfbfbf/000000&text=Admin+Management)
-
-</div>
-
-
----
 
 # 🧠 Objetivos del proyecto
 
