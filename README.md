@@ -183,7 +183,7 @@ Módulo principal de administración.
 # 📂 Estructura del proyecto
 
 ```bash
-CarRentalProject/
+PlataformaRentaVehiculos/
 │
 ├── src/                      # Código fuente principal
 ├── assets/                   # Recursos gráficos
@@ -215,7 +215,7 @@ CarRentalProject/
 ## 1️⃣ Clonar repositorio
 
 ```bash
-git clone https://github.com/codingburgas/2223-otj-10-project-the-car-rental-system-DNDonchev20.git
+git clone https://github.com/isairey/PlataformaRentaVehiculos.git
 ```
 
 ---
@@ -295,16 +295,6 @@ Compilar y ejecutar el proyecto desde Visual Studio.
 
 </div>
 
----
-
-# 🎥 Video demostración
-
-## ▶️ Walkthrough completo
-
-- 📹 Complete walkthrough of the project
-- 🚗 Demostración del sistema
-- ⚡ Funcionalidades principales
-- 📊 Arquitectura del proyecto
 
 ---
 
@@ -364,16 +354,15 @@ git push origin feature/nueva-funcionalidad
 
 ---
 
-# 👨‍💻 Desarrolladores
+# 👨‍💻 Desarrollador
 
 <div align="center">
 
-## Coding Burgas Team — Developers
+## Isai Reyes — Full Stack Developer
 
-Equipo apasionado por el desarrollo de plataformas modernas, sistemas gráficos y aplicaciones avanzadas 🚀
+Desarrollador apasionado por plataformas inmobiliarias, sistemas administrativos y aplicaciones empresariales modernas 🚀
 
 </div>
-
 ---
 
 # 🌟 Apoya el proyecto
