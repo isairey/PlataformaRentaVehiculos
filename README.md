@@ -1,78 +1,397 @@
-<h1 align="center">Car Rental project</h1>
-<br>
+<div align="center">
 
-<p align = "center">
-    <img alt="GitHub top language" src ="https://img.shields.io/github/languages/top/ZYPetkova20/Neos?style=for-the-badge">
-    <img alt="Github languages count" src="https://img.shields.io/github/languages/count/ZYPetkova20/Neos?style=for-the-badge">
-    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/ZYPetkova20/Neos?style=for-the-badge">
-</p>
-<br>
+<img width="220" src="https://cdn-icons-png.flaticon.com/512/744/744465.png" />
 
-## 📰 Video
-  - [Complete walkthrough of the project](https://codingburgas-my.sharepoint.com/:v:/g/personal/isbachvarov21_codingburgas_bg/EU8LTYaevyxIsEpaicTJ0qgBNJ91qE15pjbTWItU7BaYtA?e=YPQk21)
-    <br>
-## 🚀 Application Tech Stack 
-  <p align="left"> 
-     <a href="https://www.cplusplus.com/"><img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" alt="C++"/></a>
-     <a href="https://www.raylib.com/"><img src="https://cdn.discordapp.com/attachments/900689339179216926/1092194637701189822/Raylib_logo_1.png"/></a>
-     <a href="https://docs.libcpr.org/introduction.html"><img src="https://cdn.discordapp.com/attachments/900689339179216926/1092188134793560176/687474703a2f2f692e696d6775722e636f6d2f643958747974732e706e67_1.png"/></a>
-    <a href="https://curl.se/"><img src="https://cdn.discordapp.com/attachments/900689339179216926/1092189749625753831/68747470733a2f2f6375726c2e73652f6c6f676f2f6375726c2d6c6f676f2e737667_1.png"/></a>
-  </p>
-  
-## 🔗 DB & Server Tech Stack 
-  <p align="left"> 
-    <a href="https://www.prisma.io/"><img src="https://img.icons8.com/ios/50/null/prisma-orm.png"/></a>
-    <a href="https://www.postgresql.org/"><img src="https://img.icons8.com/color/48/null/postgreesql.png"/></a>
-    <a href="https://azure.microsoft.com/en-us"><img src="https://img.icons8.com/fluency/48/null/azure-1.png"/></a>
-    <a href="https://azure.microsoft.com/en-us"><img src="https://cdn.discordapp.com/attachments/900689339179216926/1093035146963329084/image_6.png"/></a>
-   
-  </p> 
-  
-## 🔨 Tools
-  <p align="left"> 
-    <a href="https://visualstudio.microsoft.com/"><img src="https://img.icons8.com/fluency/48/000000/visual-studio.png" alt="Visual Studio 2019"/></a>
-    <a href="https://code.visualstudio.com/"><img src="https://img.icons8.com/color/51/null/visual-studio-code-2019.png"/></a>
-    <a href="https://www.figma.com/"><img src="https://img.icons8.com/fluency/48/null/figma.png"/></a>
-    <a href="https://www.postman.com/"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/null/external-postman-is-the-only-complete-api-development-environment-logo-shadow-tal-revivo.png"/></a>
-     <a href="https://www.adobe.com/creativecloud.html"><img src="https://www.adobe.com/content/dam/shared/images/product-icons/svg/creative-cloud.svg" alt="adobe creative cloud" width=48px /></a>
-      <a href="https://www.microsoft.com/en-ww/microsoft-365/word"><img src="https://img.icons8.com/fluency/48/000000/microsoft-word-2019.png" alt="MS Word logo" width=48px /></a>
-    <a href="https://www.microsoft.com/en-us/microsoft-365/powerpoint"><img src="https://img.icons8.com/fluency/48/000000/microsoft-powerpoint-2019.png" alt="MS PowerPoint logo" width=48px />
-    <a href="https://www.microsoft.com/en-us/microsoft-365/excel"><img src="https://img.icons8.com/fluency/48/000000/microsoft-excel-2019.png" alt="MS Excel logo"/></a>
-    <a href="https://git-scm.com/"><img src="https://img.icons8.com/color/48/000000/git.png" alt="Git"/></a>
-    <a href="https://www.testcaselab.com/"><img src="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_d64820c5928a1ce8f91d728566c58d72/testcaselab.jpg" alt="Test Case Lab" width=48px /></a>
-    <a href="https://www.figma.com/"><img src="https://img.icons8.com/color/48/null/blender-3d.png"/></a>
-  </p>   
-🔧 Installation
+# 🚗 Car Rental Project
 
-```
-You can download our project by using the green "Code" button.
+### Plataforma moderna de gestión y renta de vehículos 🚀
 
-Or by pasting the following code in your CMD:
-git clone https://github.com/codingburgas/2223-otj-10-project-the-car-rental-system-DNDonchev20.git
-```
-## 🔑 Application Access
-
-*You can access our program by:*
-<ol>
-    <li>Downloading it from our site link to site</li>
-    <li>Downloading it from github release</li>
-    <li>Or you can run the code on your local device by these steps:</li>
-</ol>
-
-*Open cmd and clone our repo by typing:*
-
-```
-git clone https://github.com/codingburgas/2223-otj-10-project-the-car-rental-system-DNDonchev20.git
-```
-
-*Then navigate to our solution file and open it with VS2022, on platform and debugger select:*
-
-```
-release/x64 
-```
-
-*then debug the project, run it and enjoy our app!*
- 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&customColorList=2,3,12,19,21,23,26" width="1200px"/>
+  <b>Car Rental Project</b> es una aplicación desarrollada en C++ enfocada en la administración y renta de vehículos mediante una arquitectura moderna conectada a bases de datos y servicios backend.
 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/C%2B%2B-DesktopApplication-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
+  <img src="https://img.shields.io/badge/Raylib-GraphicsEngine-000000?style=for-the-badge">
+  <img src="https://img.shields.io/badge/PostgreSQL-Database-336791?style=for-the-badge&logo=postgresql&logoColor=white">
+  <img src="https://img.shields.io/badge/OpenSource-CarRental-success?style=for-the-badge">
+</p>
+
+<p align="center">
+  <a href="#-acerca-del-proyecto">Acerca</a> •
+  <a href="#-características">Características</a> •
+  <a href="#-tecnologías-utilizadas">Tecnologías</a> •
+  <a href="#-instalación">Instalación</a> •
+  <a href="#-vista-previa">Vista previa</a>
+</p>
+
+</div>
+
+---
+
+# 🌌 Acerca del proyecto
+
+**Car Rental Project** es una plataforma de administración de renta de vehículos diseñada para ofrecer una experiencia moderna e intuitiva tanto para clientes como administradores.
+
+El sistema fue construido utilizando tecnologías avanzadas como **C++**, **Raylib**, **PostgreSQL** y servicios cloud, permitiendo gestionar reservas, vehículos y usuarios desde una arquitectura robusta y escalable.
+
+El proyecto permite:
+
+- 🚗 Administrar vehículos
+- 📅 Gestionar reservaciones
+- 👥 Administrar usuarios
+- 🌐 Conectar servicios backend
+- 📊 Visualizar información
+- 🔐 Gestionar accesos
+- ⚡ Optimizar operaciones
+- ☁️ Integrar servicios cloud
+
+---
+
+# ✨ Características
+
+## 🚘 Gestión de vehículos
+
+- 🚗 Registro de vehículos
+- 📋 Información detallada
+- 🖼️ Visualización gráfica
+- ⚡ Estado de disponibilidad
+- 📊 Administración centralizada
+
+---
+
+## 📅 Sistema de reservaciones
+
+- 📆 Reservación de vehículos
+- ⏳ Gestión de tiempos
+- 📍 Seguimiento de rentas
+- 📄 Historial de reservas
+- ⚡ Procesos automatizados
+
+---
+
+## 👥 Gestión de usuarios
+
+- 👤 Registro de clientes
+- 🔐 Inicio de sesión
+- 📊 Administración de perfiles
+- ⚡ Gestión de accesos
+- 🔒 Seguridad integrada
+
+---
+
+## 🌐 Backend y servicios
+
+- ☁️ Integración cloud
+- 🔗 Comunicación API
+- 🗄️ Gestión de datos
+- ⚡ Servicios backend
+- 📡 Conectividad avanzada
+
+---
+
+# 👨‍💼 Módulos del sistema
+
+## 🚗 Vehicle Module
+
+Módulo encargado de la administración de vehículos.
+
+### Funcionalidades:
+
+- ➕ Registro de automóviles
+- 📋 Información técnica
+- 📊 Estado de disponibilidad
+- ⚡ Gestión de inventario
+- 🖼️ Visualización de vehículos
+
+---
+
+## 👤 Client Module
+
+Módulo utilizado por los clientes del sistema.
+
+### Funcionalidades:
+
+- 🔍 Buscar vehículos
+- 📅 Reservar automóviles
+- 📄 Consultar historial
+- 👤 Gestionar perfil
+- 🚘 Explorar catálogo
+
+---
+
+## 🛠️ Admin Module
+
+Módulo principal de administración.
+
+### Funcionalidades:
+
+- 👥 Gestión de usuarios
+- 🚗 Administración vehicular
+- 📊 Dashboard del sistema
+- 📅 Supervisión de reservas
+- ⚙️ Configuración general
+
+---
+
+# 🛠️ Tecnologías utilizadas
+
+## 🎨 Aplicación y gráficos
+
+<p>
+  <img src="https://skillicons.dev/icons?i=cpp" />
+</p>
+
+- C++
+- Raylib
+- CPR Library
+- CURL
+- Interfaces gráficas modernas
+
+---
+
+## ⚙️ Backend y servidor
+
+<p>
+  <img src="https://skillicons.dev/icons?i=postgresql,azure" />
+</p>
+
+- PostgreSQL
+- Prisma ORM
+- Azure Cloud
+- APIs Backend
+- Servicios distribuidos
+
+---
+
+## 🧰 Herramientas de desarrollo
+
+<p>
+  <img src="https://skillicons.dev/icons?i=visualstudio,vscode,git,figma,blender" />
+</p>
+
+- Visual Studio 2022
+- Visual Studio Code
+- Git
+- Figma
+- Blender
+- Postman
+- Adobe Creative Cloud
+
+---
+
+# 📂 Estructura del proyecto
+
+```bash
+CarRentalProject/
+│
+├── src/                      # Código fuente principal
+├── assets/                   # Recursos gráficos
+├── database/                 # Configuración de base de datos
+├── backend/                  # Servicios backend
+├── api/                      # APIs y conectividad
+├── docs/                     # Documentación
+├── tests/                    # Pruebas
+├── README.md
+└── LICENSE
+```
+
+---
+
+# ⚡ Instalación
+
+## 📋 Requisitos
+
+- Visual Studio 2022
+- Compilador C++
+- PostgreSQL
+- Git
+- Windows 10/11
+
+---
+
+# 🚀 Configuración del proyecto
+
+## 1️⃣ Clonar repositorio
+
+```bash
+git clone https://github.com/codingburgas/2223-otj-10-project-the-car-rental-system-DNDonchev20.git
+```
+
+---
+
+## 2️⃣ Abrir solución
+
+Abrir el proyecto en:
+
+```bash
+Visual Studio 2022
+```
+
+---
+
+## 3️⃣ Configurar plataforma
+
+Seleccionar:
+
+```bash
+Release/x64
+```
+
+---
+
+## 4️⃣ Ejecutar aplicación
+
+Compilar y ejecutar el proyecto desde Visual Studio.
+
+---
+
+# 📊 Funcionalidades principales
+
+## 🚗 Administración de vehículos
+
+- Gestión vehicular
+- Catálogo dinámico
+- Disponibilidad de renta
+- Información detallada
+
+---
+
+## 📅 Gestión de reservas
+
+- Reservación de vehículos
+- Historial de rentas
+- Gestión de horarios
+- Seguimiento de clientes
+
+---
+
+## ☁️ Integración moderna
+
+- Backend conectado
+- Base de datos PostgreSQL
+- Servicios cloud
+- APIs modernas
+
+---
+
+# 📸 Vista previa
+
+## 🖥️ Interfaces del sistema
+
+<div align="center">
+
+### 🚗 Dashboard principal
+![Dashboard](https://dummyimage.com/1200x700/e5e5e5/000000&text=Car+Rental+Dashboard)
+
+### 🚘 Catálogo de vehículos
+![Cars](https://dummyimage.com/1200x700/d9d9d9/000000&text=Vehicle+Catalog)
+
+### 📅 Sistema de reservas
+![Booking](https://dummyimage.com/1200x700/cfcfcf/000000&text=Reservation+System)
+
+### 📊 Administración del sistema
+![Admin](https://dummyimage.com/1200x700/bfbfbf/000000&text=Admin+Management)
+
+</div>
+
+---
+
+# 🎥 Video demostración
+
+## ▶️ Walkthrough completo
+
+- 📹 Complete walkthrough of the project
+- 🚗 Demostración del sistema
+- ⚡ Funcionalidades principales
+- 📊 Arquitectura del proyecto
+
+---
+
+# 🧠 Objetivos del proyecto
+
+## 🎯 Aprendizaje y desarrollo
+
+- Programación avanzada en C++
+- Desarrollo de aplicaciones gráficas
+- Gestión de bases de datos
+- Arquitectura cliente-servidor
+- Integración cloud
+- APIs y conectividad
+- Sistemas administrativos
+
+---
+
+# 🚧 Roadmap
+
+## 🔮 Próximas mejoras
+
+- 📱 Aplicación móvil
+- ☁️ Infraestructura cloud avanzada
+- 🤖 Inteligencia artificial
+- 📊 Dashboard avanzado
+- 🌐 API REST completa
+- 🔔 Notificaciones en tiempo real
+- 🚘 Recomendaciones inteligentes
+
+---
+
+# 🤝 Contribuciones
+
+Las contribuciones son bienvenidas ❤️
+
+## Cómo contribuir
+
+1. Fork del proyecto
+
+```bash
+git checkout -b feature/nueva-funcionalidad
+```
+
+2. Commit
+
+```bash
+git commit -m "✨ Nueva funcionalidad"
+```
+
+3. Push
+
+```bash
+git push origin feature/nueva-funcionalidad
+```
+
+4. Pull Request 🚀
+
+---
+
+# 👨‍💻 Desarrolladores
+
+<div align="center">
+
+## Coding Burgas Team — Developers
+
+Equipo apasionado por el desarrollo de plataformas modernas, sistemas gráficos y aplicaciones avanzadas 🚀
+
+</div>
+
+---
+
+# 🌟 Apoya el proyecto
+
+⭐ Dale una estrella  
+🍴 Haz fork  
+📢 Comparte el proyecto
+
+---
+
+# 📜 Licencia
+
+Proyecto open source orientado al aprendizaje y desarrollo de sistemas modernos de renta vehicular.
+
+---
+
+<div align="center">
+
+### 🚗 Car Rental Project — administración moderna e inteligente de vehículos 🚀
+
+</div>
